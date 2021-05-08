@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/01 21.00.00.000.216,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/01 22.00.00.000.654,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/09 09.00.00.000.302,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/05/01 09.00.00.000.042,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\User\Documents\#UNSRI6\Robotic Introduction\UAS\Project1.dproj</Transaction>
+    <Transaction>2019/05/01 09.00.00.000.197,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\User\Documents\#UNSRI6\Robotic Introduction\UAS\Unit2.dfm</Transaction>
+    <Transaction>2019/05/01 09.00.00.000.197,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\User\Documents\#UNSRI6\Robotic Introduction\UAS\Unit2.pas</Transaction>
+    <Transaction>2019/05/01 09.00.00.000.121,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,102 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, VclTee.TeeGDIPlus, Vcl.StdCtrls,
+  VCLTee.Series, VCLTee.TeEngine, Vcl.ExtCtrls, VCLTee.TeeProcs, VCLTee.Chart;
+
+type
+  TForm2 = class(TForm)
+    Chart1: TChart;
+    Series1: TPointSeries;
+    Series2: TLineSeries;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Series3: TLineSeries;
+    Series4: TLineSeries;
+    procedure Button1Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    x0:integer;
+    y0:integer;
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.Button1Click(Sender: TObject);
+var
+ x,y:Double;
+begin
+  Series1.Clear;
+   y0:=y0+100;
+   y:=y0;
+   x:=x0;
+   Series1.AddXY(x,y);
+   Series2.AddXY(x,y);
+end;
+
+procedure TForm2.Button2Click(Sender: TObject);
+var
+ x,y:Double;
+begin
+  Series1.Clear;
+   y0:=y0-100;
+   y:=y0;
+   x:=x0;
+   Series1.AddXY(x,y);
+   Series2.AddXY(x,y);
+end;
+
+procedure TForm2.Button3Click(Sender: TObject);
+var
+ x,y:Double;
+begin
+  Series1.Clear;
+   x0:=x0-100;
+   y:=y0;
+   x:=x0;
+   Series1.AddXY(x,y);
+   Series2.AddXY(x,y);
+end;
+
+procedure TForm2.Button4Click(Sender: TObject);
+var
+ x,y:Double;
+begin
+  Series1.Clear;
+   x0:=x0+100;
+   y:=y0;
+   x:=x0;
+   Series1.AddXY(x,y);
+   Series2.AddXY(x,y);
+end;
+procedure TForm2.Button5Click(Sender: TObject);
+
+begin
+   Series1.Clear;
+   Series2.Clear;
+   Series3.Clear;
+   Series4.Clear;
+   x0:=500;
+   y0:=500;
+   Series1.AddXY(x0,y0);
+   Series2.AddXY(x,y0);
+end;
+
+end.
